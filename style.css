@@ -1,0 +1,286 @@
+/* resset css/ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Rubik&display=swap');
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+/* wrapper ou embrulho é usado para organizar informações no site.É como se você fosse dar de presente várias lembrancinhas para uma pessoa só, e optou por embrulhá-las todas juntas. Por exemplo: */
+}
+.wrapper{
+    margin: auto;
+    width: 90%;
+    max-width: 1440px;
+}
+
+#cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header{
+    background-color:#2e6947;
+    padding: 1.5em;
+    
+}
+.logo{
+    color:whitesmoke;
+}
+form{
+    border: 1px;
+    border-radius: .3em;
+    padding: .3em;
+    
+}
+form input,form button{
+    font-size: 1.4em;
+    border-radius: .2em;
+    border: none;
+    padding: .4em 2.5em;
+}
+/* estilização do item " contato " no cabeçalho */
+.contato {
+    font-size: 1.2em;
+    border-radius: 0.3em; 
+    border:none;
+    padding: 0.4em 2em;
+    color: #fff3e5;
+   
+    /* estilização dos itens do cabeçalho "minha conta"  */
+}
+.contato-minha.conta {
+    font-size: 1.2em;
+    border-radius: 0.3em; 
+    border:none;
+    padding: 0.4em 2.5em;
+}
+
+a{
+    color: #fff3e5;
+}
+
+form button{
+    cursor:pointer;
+    background-color: whitesmoke;
+   
+}
+form button,form:hover{
+    background-color: whitesmoke;
+    color: blueviolet;
+   
+}
+
+ul{
+    display: flex;
+    background-color: #2e6947;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+#barra-pesquisa{
+    width: 96%;
+    /* criei a class display-flex na tag <li> para estilizar o elemento Contato e minha conta  */
+}
+.display-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+/* alterei o tamanho dos icones whatsapp e shopping cart chamando o elemento img. */
+}
+img{
+    width: 25px;
+    /* foi criado o elemento banner-cesta para estilizar a imagem */
+}
+.banner-cesta{
+    width: 600px;
+    height: 250px;
+        /* o elemento banner para estilizar toda a área do banner. O display flex deixar um elemento do lado do outro, align-items, para alinhar os elementos e o justify-content para distanciar os elementos */
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #966136;
+    /*(A class banner-site) - A propriedade CSS background-color é um atalho para definir os valores de fundo individuais em um único lugar na folha de estilo.*/
+}
+#banner-site{
+    background-color: #fff3e5;
+   padding: 32px 20px;
+ 
+   /* Secao cards foram criados 4 cards e 4 img dentro de uma <div> e separado por article onde cada article contém uma secao-card uma img-card no HTML */
+}
+.secao-card1{
+    width: 250px;
+    padding: 40px 35px 40px;
+    background-color: #fff3e5;
+    
+   
+} 
+#img-card-1{
+    width: 150px;
+    mix-blend-mode: multiply;
+}
+#produtos-cards{
+    background-color: #c7b095;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.secao-card2{
+    width: 250px;
+    padding: 40px 35px 40px;
+    background-color: #fff3e5;
+    
+}
+#img-card-2{
+    width: 150px;
+    mix-blend-mode: multiply;
+}
+.secao-card3{
+    width: 250px;
+    padding: 40px 35px 40px;
+    background-color: #fff3e5;
+
+}
+#img-card-3{
+    width: 150px;
+    mix-blend-mode: multiply;
+
+}
+.secao-card4{
+    width: 250px;
+    padding: 40px 35px 40px;
+    background-color: #fff3e5;
+
+}
+#img-card-4{
+    width: 150px;
+    mix-blend-mode: multiply;
+/* os elementos padding-top e padding-bottom, promove o distanciamento dos cards na parte de cima e embaixo */
+}
+#secao-todos-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 15px;
+   
+    
+}
+.cards-hortifrut{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:   #c9bbab;
+    padding: 0.8em 0.8em;
+    
+}
+#img1{
+    width: 200px;
+              
+}
+#img2{
+    width: 200px;
+
+}
+#img3{
+    width: 200px;
+
+}
+#img4{
+    width: 200px;
+}
+#img5{
+    width: 220px;
+
+}
+
+
+.cards-laticinio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #c9bbab;
+    padding: 0.8em 0.8em;
+   
+       
+}
+#img6{
+    width: 200px;
+          
+}
+#img7{
+    width: 210px;
+
+}
+#img8{
+    width: 200px;
+   
+
+
+}
+#img9{
+    width: 200px;
+}
+#img10{
+    width: 200px;
+}
+#secao-hortifrut{
+    padding: 15px;
+    text-align: center;
+    background-color: #c7b095;
+    padding: 0.6em 3em;
+    margin-bottom: 5px;
+    margin-top: 5px;
+   
+   
+}
+
+
+#secao-laticinio{
+    padding: 15px;
+    text-align: center; 
+    background-color: #c7b095;
+    padding: 0.6em 3em;
+    margin-bottom: 5px;
+    margin-top: 5px;
+        
+}
+
+.rodape{
+    padding: 40px;
+    border-top: 0.4px solid #c7b3a2;
+    background-color: #2e6947;
+    color: #ffffff;
+     
+}
+h2{
+    color: #966136;
+
+}
+h3{
+    color: #966136;
+}
+
+
+/* inicio estilo responsividade*/
+/* 1 width - 920px*/
+
+@media screen and (max-width: 920px) {
+    /* .cabecalho {
+        width: 90%;
+     
+    }
+    .banner-site {
+        font-size: 25px;
+          
+    }
+     */
+     body{
+         background-color: aqua;
+     }
+    
+}

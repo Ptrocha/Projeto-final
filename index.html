@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projeto final DEPWEB-18</title>
+    
+    <script src="https://kit.fontawesome.com/d40bc84a4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="cabecalho" class="wrapper">
+
+            <div class="logo">Tèrra</div>
+            <div id="barra-pesquisa">
+                <ul>
+                    
+                    <form action="#" method="POST">
+                        <input type="text" name="search" id="search" placeholder="faça sua pesquisa" required>
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+
+                    <li class="display-flex">
+                        <img src="img/whatsapp-brands.svg" alt="imagem do icone whatsapp">
+                        <a href class="contato">Contato</a>
+                    </li>
+                    <li class="display-flex">
+                        <img src="img/cart-shopping-solid.svg" alt="Imagem de um carrinho de mercado ou shopping cart">
+                        <a href class="contato-minha-conta">Minha Conta</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </header>
+    <section id="banner-site">
+        <div class="wrapper banner">
+            <h1>Seus produtos orgânicos direto do produtor em sua casa toda semana.Você escolhe suas hortaliças,frutas,
+                legumes e outros
+                produtos online. </h1>
+            <img class="banner-cesta" src="img/Group 1.png" alt="Imagem de uma cesta de produtos">
+
+        </div>
+    </section>
+    <section id="produtos-cards">
+        <div class="wrapper">
+            <h2>Como funciona</h2>
+            <div id="secao-todos-cards">
+                <article class="secao-card1">
+                    <img id="img-card-1" src="img/image 4.png"
+                        alt="a imagem mostra duas mãos uma do lado da outra formando uma tijela com frutas dentro">
+                    <h4>Você escolhe</h4>
+                    <p>Você escolhe suas frutas,verduras,legumes de forma online</p>
+                </article>
+                <article class="secao-card2">
+                    <img id="img-card-2" src="img/image 3.png" alt="mostra duas pessoas fazendo alguma coisa na terra">
+                    <h4>Tudo fresco</h4>
+                    <p>seus produtos são colhidos para chegar fresca a sua casa</p>
+                </article>
+                <article class="secao-card3">
+                    <img id="img-card-3" src="img/image 1.png" alt="imagem de um caminhão de transportes de verduras">
+                    <h4>Receba em casa</h4>
+                    <p>Seus pedidos serão entregue no dia seguinte</p>
+                </article>
+                <article class="secao-card4">
+                    <img id="img-card-4" src="img/image 2.png" alt="imagem de uma cesta com produtos">
+                    <h4>Faça a diferença</h4>
+                    <p>Você incentiva a agricultara familiar e ajuda sua saúde.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="secao-hortifrut">
+        <div class="wrapper">
+            <h2>Produtos orgânicos</h2>
+            <h2 id="valor_total"></h2>
+            <h3>Hortaliças e frutas</h3>
+            <div class="cards-hortifrut">
+                <div>
+                    <img id="img1" src="img/Rectangle 7.png" alt="Mangas e Uvas">
+                    <input type="checkbox" name="" id="" onclick="addCarrinho(9.50, this)">
+                    <p>R$ 9,50</p>
+                </div>
+                <div>
+                    <img id="img2" src="img/Rectangle 13.png" alt="Cestas de hortaliças">
+                    <input type="checkbox" name="" id="" onclick="addCarrinho(8.90, this)">
+                    <p>R$ 8,90</p>
+                </div>
+                <div>
+                    <img id="img3" src="img/Rectangle 11.png" alt="Cesta de legumes">
+                    <input type="checkbox" name="" id="" onclick="addCarrinho(16.10, this)">
+                    <p>R$ 16,10</p>
+
+                </div>
+                <div>
+                    <img id="img4" src="img/Rectangle 10.png" alt="Cestas de uvas">
+                    <input type="checkbox" name="" id="" onclick="addCarrinho(13.20, this)">
+                    <p>R$ 13,20</p>
+
+                </div>
+                <div>
+                    <img id="img5" src="img/Rectangle 12.png" alt="Cestas de hort">
+                    <input type="checkbox" name="" id="" onclick="addCarrinho(18.10, this)">
+                    <p>R$ 18,10</p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="secao-laticinio">
+        <div class="wrapper">
+            <h3>Leite e derivados</h3>
+            <div class="cards-laticinio">
+                <div>
+                    <img id="img6" src="img/Iogurte Frutas.png" alt="iogurte de frutas">
+                    <input type="checkbox" name="" id="" onclick="addCarrinho(9.90, this)">
+                    <p>R$ 9,90</p>
+                </div>
+                <div>
+                    <img id="img7" src="img/Queijo.png" alt="imagem de queijo">
+                    <input type="checkbox" name="" id="" onclick="addCarrinho(12.90, this)">
+                    <p>R$ 12,90</p>
+
+                </div>
+                <div>
+                    <img id="img8" src="img/Leite.png" alt="leite fresco organnico">
+                    <input type="checkbox" name="" id="" onclick="addCarrinho(8.80, this)">
+                    <p>R$ 8,80</p>
+
+                </div>
+                <div>
+                    <img id="img9" src="img/Manteiga.png" alt="imagem de manteiga organica">
+                    <input type="checkbox" name="" id="" onclick="addCarrinho(11.70, this)">
+                    <p>R$ 11,70</p>
+
+                </div>
+                <div>
+                    <img id="img10" src="img/Coalhada Natural.png" alt="imagem de coalhada natural">
+                    <input type="checkbox" name="" id="" onclick="addCarrinho(4.70, this)">
+                    <p>R$ 4,70</p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="rodape">
+        <p>&copy;Copyright 2022 - Todos os direitos reservados a Tèrra produtos organicos</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
